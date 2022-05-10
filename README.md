@@ -21,3 +21,6 @@ Now repeat the step using the mbCoverter.py and copy it into mbArduino.txt, then
 
 ## Wiring: 
 the arduino power and ground can be plug into the power and ground port on the arduino, soldering is advised as it allows for better longevity of the product. Please only use 4.0 V battery or plug directly into any computer using a usb. The dataIn is done using PIN 4 on the arduino on both arduinos. 
+## Mechanical:
+for better viewing, we suggest playing around with frosted polycarbonate plates, ranging from the width of 1/2" to 1/16" on top of the leds to spread the lighting of the leds better for better viewing of the actual picture. This will take trial and error and you can also adjust the brightness on your arduino code to also compliment the polycarbonate cover. 
+![image](https://user-images.githubusercontent.com/70545101/167727832-ecc835ca-c4a3-474f-8cca-4bd885347d70.png)
