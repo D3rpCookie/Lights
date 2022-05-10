@@ -1,0 +1,23 @@
+#include <FastLED.h>
+#define LED_PIN 4
+#define NUM_LEDS 600
+
+CRGB leds[NUM_LEDS];
+
+void setup() {
+  FastLED.addLeds<WS2812, LED_PIN, GRB>(leds, NUM_LEDS);
+  FastLED.setMaxPowerInVoltsAndMilliamps(5, 500);
+  FastLED.clear();
+  FastLED.show();
+     leds[1] = CRGB(0, 255, 0 );
+    FastLED.setBrightness(5);
+    FastLED.show();
+    
+
+}
+
+void loop() {
+
+
+
+}
